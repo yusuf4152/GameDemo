@@ -6,7 +6,7 @@ import GameDemo.Entity.Concretes.Offer;
 public class OfferManager implements IOfferServices {
     @Override
     public void newOffer(Offer offer) {
-        System.out.println(offer.getName()+ " kampanyası eklendi");
+        System.out.println(offer.getName()+ "kampanyası eklendi");
     }
 
     @Override
