@@ -16,6 +16,6 @@ public class OfferManager implements IOfferServices {
 
     @Override
     public void updateOffer(Offer offer) {
-        System.out.println(offer.getName()+ " kampanyası güncellendi.");
+        System.out.println(offer.getName()+ " kampanyası güncellendi..");
     }
 }

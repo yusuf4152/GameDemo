@@ -11,7 +11,7 @@ public class CustomerManager implements ICustomerServices {
     @Override
     public void add(Customer customer) throws Exception {
          if (this.baseServices.Check(customer)){
-             System.out.println("müşteri ekleme Başarılı");
+             System.out.println("müşteri ekleme Başarılı.");
          }
          else {
              System.out.println("müşteri ekleme başarısız");

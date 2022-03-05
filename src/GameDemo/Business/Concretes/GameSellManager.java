@@ -7,6 +7,6 @@ import GameDemo.Entity.Concretes.Offer;
 public class GameSellManager implements IGameServices {
     @Override
     public void gameSell(Game game, Customer customer, Offer offer) {
-        System.out.println(game.getProductID()+" id li oyun"+" " + offer.getName()+" kampanyası kullanılarak"+customer.getName()+" adlı kişiye satıldı");
+        System.out.println(game.getProductID()+" id li oyun."+" " + offer.getName()+" kampanyası kullanılarak"+customer.getName()+" adlı kişiye satıldı");
     }
 }
