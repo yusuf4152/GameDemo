@@ -1,9 +1,9 @@
 package GameDemo.Business.Concretes;
 import GameDemo.Adapter.Abstracts.BaseServices;
-import GameDemo.Business.Abstracts.ICustomerManager;
+import GameDemo.Business.Abstracts.ICustomerServices;
 import GameDemo.Entity.Concretes.Customer;
 
-public class CustomerManager implements ICustomerManager {
+public class CustomerManager implements ICustomerServices {
     private final BaseServices baseServices;
     public CustomerManager(BaseServices baseServices) {
         this.baseServices=baseServices;

@@ -1,9 +1,9 @@
 package GameDemo.Business.Concretes;
 
-import GameDemo.Business.Abstracts.IOfferManager;
+import GameDemo.Business.Abstracts.IOfferServices;
 import GameDemo.Entity.Concretes.Offer;
 
-public class OfferManager implements IOfferManager {
+public class OfferManager implements IOfferServices {
     @Override
     public void newOffer(Offer offer) {
         System.out.println(offer.getName()+ " kampanyası eklendi");
